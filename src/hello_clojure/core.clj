@@ -3,4 +3,7 @@
 (defn foo
   "I don't do a whole lot."
   [x]
-  (println "Bonjour" x))
+  (println "こんいちは" x))
+
+(defn -main []
+  (foo 42))
